@@ -17,8 +17,15 @@ header {
     z-index: 1000;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
 header .logo {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 nav ul {
@@ -40,7 +47,7 @@ nav ul li a {
 }
 
 main {
-    padding: 100px 20px 20px 20px;
+    padding: 150px 20px 20px 20px;
     max-width: 800px;
     margin: 0 auto;
 }
