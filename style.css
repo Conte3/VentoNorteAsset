@@ -68,6 +68,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: #1a1a1a; /* Cor dos títulos do site de referência */
 }
 
 a.button {
