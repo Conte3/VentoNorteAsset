@@ -4,14 +4,11 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    background-image: url('imagens/background.jpg'); /* Adicione a imagem de background */
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #1a1a1a; /* Cor do header do site de referência */
+    color: #ffffff;
     padding: 1em 0;
     text-align: center;
     position: fixed;
@@ -44,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ecf0f1;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -60,7 +57,7 @@ section {
 }
 
 h1, h2 {
-    color: #2c3e50;
+    color: #1a1a1a; /* Cor dos títulos do site de referência */
 }
 
 p {
@@ -77,7 +74,7 @@ a.button {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
-    background-color: #3498db;
+    background-color: #007bff; /* Cor dos botões do site de referência */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -86,15 +83,32 @@ a.button {
 }
 
 a.button:hover {
-    background-color: #2980b9;
+    background-color: #0056b3; /* Cor do hover dos botões do site de referência */
 }
 
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #1a1a1a; /* Cor do footer do site de referência */
+    color: #ffffff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.background-image {
+    background-image: url('imagens/background.jpg'); /* Adicione a imagem de background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.background-image h1 {
+    font-size: 3em;
+    margin: 0;
 }
