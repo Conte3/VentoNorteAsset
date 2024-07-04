@@ -90,14 +90,20 @@ a.button:hover {
     background-color: #838383; /* Cor do hover dos botões do site de referência */
 }
 
-footer {
-    background-color: #1a1a1a; /* Cor do footer do site de referência */
-    color: #ffffff;
-    text-align: center; /* Centraliza o texto */
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+footer { 
+    background-color: #1a1a1a; /* Cor do footer do site de referência */ 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 1em 0; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+}
+
+.footer-container {
+    display: inline-block;
+    padding: 10px 20px; /* Mesmo padding dos botões */
+    background-color: transparent; /* Container transparente */
 }
 
 .background-image {
