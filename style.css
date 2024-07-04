@@ -94,7 +94,7 @@ footer {
     background-color: #1a1a1a; /* Cor do footer do site de referência */
     color: #ffffff;
     text-align: center; /* Centraliza o texto */
-    padding: 1em 0;
+    padding: 10px 20px;
     position: fixed;
     width: 100%;
     bottom: 0;
