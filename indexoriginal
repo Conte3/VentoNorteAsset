@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Vento Norte Asset</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('header').innerHTML = data;
+                });
+
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('footer').innerHTML = data;
+                });
+        });
+    </script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>A Vento Norte Asset é uma empresa dedicada a fornecer soluções financeiras inovadoras e personalizadas para nossos clientes.</p>
+        </section>
+        <section>
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos uma ampla gama de serviços financeiros, incluindo gestão de ativos, consultoria financeira e muito mais.</p>
+        </section>
+        <section>
+            <h2>Compliance</h2>
+            <p>Para acessar nossos documentos de compliance, clique no botão abaixo:</p>
+            <a href="compliance.html" class="button">Documentos de Compliance</a>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
