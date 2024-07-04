@@ -94,10 +94,14 @@ footer {
     background-color: #1a1a1a; /* Cor do footer do site de referência */
     color: #ffffff;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
+    padding: 10px 20px; /* Mesmo padding dos botões */
     width: 100%;
+    max-width: 800px; /* Mesma largura máxima do main */
+    margin: 0 auto; /* Centraliza o footer */
+    position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .background-image {
